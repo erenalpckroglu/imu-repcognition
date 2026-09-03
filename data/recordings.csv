@@ -1,0 +1,100 @@
+record_uid,activity_name,subject_row_index,subject_id,recording_id,activity_reps,incomplete_data,master_sample_rows
+singleonly_subject001_Chest_Press_(rack)_record0001,Chest Press (rack),1,3,735181.59707175929,20,0,1746
+singleonly_subject001_Chest_Press_(rack)_record0002,Chest Press (rack),1,3,735220.42857638886,15,0,1624
+singleonly_subject007_Chest_Press_(rack)_record0001,Chest Press (rack),7,81,735216.39157407405,20,0,4017
+singleonly_subject016_Chest_Press_(rack)_record0001,Chest Press (rack),16,10004,735181.44266203709,20,0,2244
+singleonly_subject017_Chest_Press_(rack)_record0001,Chest Press (rack),17,10005,735180.57965277776,15,0,1865
+singleonly_subject033_Chest_Press_(rack)_record0001,Chest Press (rack),33,502,735209.63335648144,22,0,2185
+singleonly_subject035_Chest_Press_(rack)_record0001,Chest Press (rack),35,512,735207.56969907403,19,0,1704
+singleonly_subject052_Chest_Press_(rack)_record0001,Chest Press (rack),52,526,735203.45534722228,10,0,1095
+singleonly_subject052_Chest_Press_(rack)_record0002,Chest Press (rack),52,526,735203.45534722228,10,0,814
+singleonly_subject052_Chest_Press_(rack)_record0003,Chest Press (rack),52,526,735203.45534722228,10,0,1117
+singleonly_subject058_Chest_Press_(rack)_record0001,Chest Press (rack),58,247,735207.70534722228,15,0,2753
+singleonly_subject059_Chest_Press_(rack)_record0001,Chest Press (rack),59,248,735209.5643981481,16,0,3070
+singleonly_subject059_Chest_Press_(rack)_record0002,Chest Press (rack),59,248,735215.56483796297,16,0,2065
+singleonly_subject069_Chest_Press_(rack)_record0001,Chest Press (rack),69,543,735201.38824074075,9,0,1919
+singleonly_subject069_Chest_Press_(rack)_record0002,Chest Press (rack),69,543,735201.38824074075,13,0,1938
+singleonly_subject076_Chest_Press_(rack)_record0001,Chest Press (rack),76,454,735221.6968634259,20,0,2098
+singleonly_subject080_Chest_Press_(rack)_record0001,Chest Press (rack),80,560,735203.69283564819,15,0,1859
+singleonly_subject081_Chest_Press_(rack)_record0001,Chest Press (rack),81,536,735194.38187499996,21,0,2594
+singleonly_subject083_Chest_Press_(rack)_record0001,Chest Press (rack),83,509,735206.57260416669,15,0,2685
+singleonly_subject086_Chest_Press_(rack)_record0001,Chest Press (rack),86,570,735189.38871527778,20,0,3688
+singleonly_subject086_Chest_Press_(rack)_record0002,Chest Press (rack),86,570,735215.37854166667,21,0,2879
+singleonly_subject087_Chest_Press_(rack)_record0001,Chest Press (rack),87,576,735189.45493055554,20,0,3313
+singleonly_subject089_Chest_Press_(rack)_record0001,Chest Press (rack),89,579,735201.45528935187,15,0,2183
+singleonly_subject089_Chest_Press_(rack)_record0002,Chest Press (rack),89,579,735201.45528935187,11,0,1622
+singleonly_subject089_Chest_Press_(rack)_record0003,Chest Press (rack),89,579,735215.6956018518,14,0,1604
+singleonly_subject089_Chest_Press_(rack)_record0004,Chest Press (rack),89,579,735215.6956018518,9,0,1192
+singleonly_subject091_Chest_Press_(rack)_record0001,Chest Press (rack),91,564,735202.44246527774,20,0,2300
+singleonly_subject092_Chest_Press_(rack)_record0001,Chest Press (rack),92,231,735210.57200231485,21,0,3218
+singleonly_subject093_Chest_Press_(rack)_record0001,Chest Press (rack),93,549,735189.67325231479,3,0,356
+singleonly_subject093_Chest_Press_(rack)_record0002,Chest Press (rack),93,549,735189.67325231479,20,0,2757
+singleonly_subject094_Chest_Press_(rack)_record0001,Chest Press (rack),94,590,735210.64305555553,20,0,2452
+singleonly_subject001_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,1,3,735173.48251157405,15,0,1740
+singleonly_subject007_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,7,81,735181.67620370374,20,0,5363
+singleonly_subject014_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,14,23,735158.45910879632,10,0,1856
+singleonly_subject014_Squat_Rack_Shoulder_Press_record0002,Squat Rack Shoulder Press,14,23,735158.45910879632,5,0,900
+singleonly_subject015_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,15,76,735158.55993055552,15,0,2182
+singleonly_subject033_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,33,502,735161.61280092597,15,1,2122
+singleonly_subject053_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,53,533,735160.38216435187,14,0,4139
+singleonly_subject054_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,54,534,735160.44792824076,2,0,650
+singleonly_subject054_Squat_Rack_Shoulder_Press_record0002,Squat Rack Shoulder Press,54,534,735160.44792824076,18,0,4200
+singleonly_subject055_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,55,537,735161.45284722222,22,0,4045
+singleonly_subject057_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,57,525,735179.54924768524,20,0,2847
+singleonly_subject057_Squat_Rack_Shoulder_Press_record0002,Squat Rack Shoulder Press,57,525,735187.67422453698,20,0,2563
+singleonly_subject065_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,65,528,735161.54792824073,16,0,4289
+singleonly_subject066_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,66,535,735160.61315972218,5,0,1000
+singleonly_subject066_Squat_Rack_Shoulder_Press_record0002,Squat Rack Shoulder Press,66,535,735160.61315972218,13,0,2446
+singleonly_subject067_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,67,542,735166.39054398146,20,0,3345
+singleonly_subject068_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,68,541,735166.44664351852,20,0,4129
+singleonly_subject069_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,69,543,735167.38905092597,21,0,4056
+singleonly_subject071_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,71,546,735172.4454282407,20,0,3990
+singleonly_subject072_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,72,550,735174.44585648144,20,0,4488
+singleonly_subject073_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,73,17,735174.44659722224,15,0,2229
+singleonly_subject074_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,74,551,735175.44167824078,20,0,3383
+singleonly_subject075_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,75,547,735175.37893518514,13,0,2689
+singleonly_subject076_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,76,454,735175.60597222217,14,0,1377
+singleonly_subject077_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,77,556,735180.38607638888,15,0,2029
+singleonly_subject078_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,78,559,735180.61479166662,15,0,2564
+singleonly_subject079_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,79,555,735181.38391203701,15,0,3950
+singleonly_subject080_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,80,560,735182.61635416665,15,0,2626
+singleonly_subject081_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,81,536,735187.3857986111,15,0,2694
+singleonly_subject082_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,82,567,735188.39000000001,15,0,2105
+singleonly_subject083_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,83,509,735187.44900462963,15,0,3909
+singleonly_subject085_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,85,530,735188.38245370367,12,0,2020
+singleonly_subject088_Squat_Rack_Shoulder_Press_record0001,Squat Rack Shoulder Press,88,561,735181.44898148149,15,0,3022
+singleonly_subject001_Lateral_Raise_record0001,Lateral Raise,1,3,735173.48251157405,15,0,1451
+singleonly_subject007_Lateral_Raise_record0001,Lateral Raise,7,81,735181.67620370374,20,0,3393
+singleonly_subject014_Lateral_Raise_record0001,Lateral Raise,14,23,735158.45910879632,10,0,1339
+singleonly_subject015_Lateral_Raise_record0001,Lateral Raise,15,76,735158.55993055552,14,0,1337
+singleonly_subject033_Lateral_Raise_record0001,Lateral Raise,33,502,735161.61280092597,15,1,1233
+singleonly_subject053_Lateral_Raise_record0001,Lateral Raise,53,533,735160.38216435187,18,0,3701
+singleonly_subject054_Lateral_Raise_record0001,Lateral Raise,54,534,735160.44792824076,20,0,3019
+singleonly_subject055_Lateral_Raise_record0001,Lateral Raise,55,537,735161.45284722222,1,0,464
+singleonly_subject055_Lateral_Raise_record0002,Lateral Raise,55,537,735161.45284722222,20,0,4485
+singleonly_subject057_Lateral_Raise_record0001,Lateral Raise,57,525,735179.54924768524,20,0,1905
+singleonly_subject057_Lateral_Raise_record0002,Lateral Raise,57,525,735187.67422453698,14,0,1424
+singleonly_subject065_Lateral_Raise_record0001,Lateral Raise,65,528,735161.54792824073,5,0,887
+singleonly_subject066_Lateral_Raise_record0001,Lateral Raise,66,535,735160.61315972218,15,0,3817
+singleonly_subject067_Lateral_Raise_record0001,Lateral Raise,67,542,735166.39054398146,20,0,2561
+singleonly_subject068_Lateral_Raise_record0001,Lateral Raise,68,541,735166.44664351852,20,0,2614
+singleonly_subject069_Lateral_Raise_record0001,Lateral Raise,69,543,735167.38905092597,14,0,2486
+singleonly_subject070_Lateral_Raise_record0001,Lateral Raise,70,545,735172.38795138884,9,0,800
+singleonly_subject070_Lateral_Raise_record0002,Lateral Raise,70,545,735172.38795138884,9,0,760
+singleonly_subject071_Lateral_Raise_record0001,Lateral Raise,71,546,735172.4454282407,15,0,2312
+singleonly_subject072_Lateral_Raise_record0001,Lateral Raise,72,550,735174.44585648144,15,0,1942
+singleonly_subject073_Lateral_Raise_record0001,Lateral Raise,73,17,735174.44659722224,15,0,2089
+singleonly_subject074_Lateral_Raise_record0001,Lateral Raise,74,551,735175.44167824078,15,0,2443
+singleonly_subject075_Lateral_Raise_record0001,Lateral Raise,75,547,735175.37893518514,15,0,1411
+singleonly_subject076_Lateral_Raise_record0001,Lateral Raise,76,454,735175.60597222217,15,0,1196
+singleonly_subject077_Lateral_Raise_record0001,Lateral Raise,77,556,735180.38607638888,15,0,2612
+singleonly_subject078_Lateral_Raise_record0001,Lateral Raise,78,559,735180.61479166662,10,0,1431
+singleonly_subject078_Lateral_Raise_record0002,Lateral Raise,78,559,735180.61479166662,10,0,1385
+singleonly_subject079_Lateral_Raise_record0001,Lateral Raise,79,555,735181.38391203701,20,0,1909
+singleonly_subject080_Lateral_Raise_record0001,Lateral Raise,80,560,735182.61635416665,15,0,1996
+singleonly_subject081_Lateral_Raise_record0001,Lateral Raise,81,536,735187.3857986111,12,0,1361
+singleonly_subject081_Lateral_Raise_record0002,Lateral Raise,81,536,735187.3857986111,10,0,1041
+singleonly_subject082_Lateral_Raise_record0001,Lateral Raise,82,567,735188.39000000001,19,0,2494
+singleonly_subject083_Lateral_Raise_record0001,Lateral Raise,83,509,735187.44900462963,15,0,3254
+singleonly_subject085_Lateral_Raise_record0001,Lateral Raise,85,530,735188.38245370367,14,0,1874
+singleonly_subject088_Lateral_Raise_record0001,Lateral Raise,88,561,735181.44898148149,15,0,1717
