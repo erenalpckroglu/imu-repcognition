@@ -6,7 +6,11 @@ using a 3-exercise subset of Microsoft's RecoFit dataset.
 
 ## Contents
 
-- `notebooks/01_bench_press_vs_shoulder_press.ipynb` — main analysis notebook
+- `project/sports_data_analytics.ipynb` — polished class-project notebook covering all three exercises and Chest Press weak-region analysis
+- `notebooks/01_bench_press_vs_shoulder_press.ipynb` — signal exploration and feature comparison
+- `notebooks/02_exercise_and_rep_recognition.ipynb` — first recognition and rep-counting prototype
+- `notebooks/03_final_ml_pipeline.ipynb` — current exercise, rep, and phase-recognition pipeline
+- `notebooks/04_push_phase_segment_analysis.ipynb` — early/middle/late push analysis and candidate weak-region detection
 - `data/` — the CSV subset used for the analysis (see `data/README.md` for
   exactly what it is, how it was produced, and its license)
 
@@ -14,7 +18,7 @@ using a 3-exercise subset of Microsoft's RecoFit dataset.
 
 ```
 python -m pip install -r requirements.txt
-jupyter notebook notebooks/01_bench_press_vs_shoulder_press.ipynb
+jupyter notebook
 ```
 
 ## Data
