@@ -1,18 +1,29 @@
 # imu-repcognition
 
-Small analysis project comparing wrist-worn IMU signal patterns between two
-gym exercises — **Chest Press (rack)** vs **Squat Rack Shoulder Press** —
-using a 3-exercise subset of Microsoft's RecoFit dataset.
+Wrist-worn IMU analysis project — exercise recognition, rep counting, phase
+recognition, and Chest Press weak-region (sticking point) analysis — built
+on a 3-exercise subset of Microsoft's RecoFit dataset.
 
 ## Contents
 
-- `project/sports_data_analytics.ipynb` — polished class-project notebook covering all three exercises and Chest Press weak-region analysis
-- `notebooks/01_bench_press_vs_shoulder_press.ipynb` — signal exploration and feature comparison
-- `notebooks/02_exercise_and_rep_recognition.ipynb` — first recognition and rep-counting prototype
-- `notebooks/03_final_ml_pipeline.ipynb` — current exercise, rep, and phase-recognition pipeline
-- `notebooks/04_push_phase_segment_analysis.ipynb` — early/middle/late push analysis and candidate weak-region detection
+- `notebooks/01_legacy_signal_exploration.ipynb` — kept for reference only.
+  Shows the project's original signal-exploration approach (PCA,
+  gravity-tilt correction, early distance-measurement attempts) before it
+  converged on the pipeline below.
+- `notebooks/02_ml_pipeline.ipynb` — the machine learning pipeline: exercise
+  recognition, rep counting, and concentric/eccentric phase recognition,
+  all subject-grouped cross-validated (three trained models).
+- `notebooks/03_weak_region_analysis.ipynb` — **main deliverable.**
+  Three-exercise comparison and recognition, Chest Press push detection,
+  within-repetition weak-half comparison, within-set fatigue analysis, and
+  cross-set comparison. Supporting functions live in `notebooks/analysis.py`.
 - `data/` — the CSV subset used for the analysis (see `data/README.md` for
-  exactly what it is, how it was produced, and its license)
+  exactly what it is, how it was produced, and its license).
+- `outputs/` — CSV tables produced by the notebooks above.
+
+Earlier prototype notebooks and superseded analysis scripts have been
+removed from this branch to keep the submission focused. The full project
+history remains on the `repcognition-legacy` branch.
 
 ## Setup
 
