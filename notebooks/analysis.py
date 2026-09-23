@@ -1,4 +1,5 @@
-"""Reusable analysis functions for the sports data analytics notebook."""
+"""Helper functions for loading the RecoFit subset, detecting Chest Press pushes
+and computing the features used in notebooks 03 and 04."""
 
 from pathlib import Path
 
@@ -14,12 +15,38 @@ EXERCISES = [CHEST, SHOULDER, LATERAL]
 ACC = ["accel_x_g", "accel_y_g", "accel_z_g"]
 GYR = ["gyro_x_dps", "gyro_y_dps", "gyro_z_dps"]
 
+# Sets with fewer labelled repetitions are not treated as repetitive sets.
+MIN_LABELLED_REPS = 5
 
-def load_data(data_dir="../data"):
+
+def load_data(data_dir="../data", min_reps=MIN_LABELLED_REPS):
+    """Load recordings and samples, dropping sets with fewer than min_reps labelled repetitions."""
     data_dir = Path(data_dir)
     recordings = pd.read_csv(data_dir / "recordings.csv")
     samples = pd.read_csv(data_dir / "samples.csv")
+    if min_reps:
+        recordings = recordings.loc[recordings.activity_reps >= min_reps].reset_index(drop=True)
+        samples = samples.loc[samples.record_uid.isin(recordings.record_uid)].reset_index(drop=True)
     return recordings, samples
+
+
+def short_sets(data_dir="../data", min_reps=MIN_LABELLED_REPS):
+    """Sets excluded by load_data because they have fewer than min_reps labelled repetitions."""
+    recordings = pd.read_csv(Path(data_dir) / "recordings.csv")
+    short = recordings.loc[recordings.activity_reps < min_reps]
+    return short[["record_uid", "activity_name", "activity_reps"]].reset_index(drop=True)
+
+
+def representative_record(recordings, samples, exercise):
+    """Set whose gyroscope magnitude RMS is closest to the median of its exercise."""
+    uids = recordings.loc[recordings.activity_name == exercise, "record_uid"]
+    rms = pd.Series(
+        {
+            uid: np.sqrt(np.mean(np.linalg.norm(load_signal(samples, uid)[GYR].to_numpy(), axis=1) ** 2))
+            for uid in uids
+        }
+    )
+    return (rms - rms.median()).abs().idxmin()
 
 
 def load_signal(samples, record_uid):
@@ -119,6 +146,10 @@ def detect_push_phases(signal):
         if not len(following):
             continue
         end = int(following[0])
+        # A push that contains another trough ran past a missed peak into the
+        # next repetition, so it is not a single push.
+        if np.any((troughs > start) & (troughs < end)):
+            continue
         duration_s = (end - start) / FS
         rise = filtered[end] - filtered[start]
         if 0.20 <= duration_s <= 4.0 and rise >= max(0.03, 0.08 * np.ptp(filtered)):
