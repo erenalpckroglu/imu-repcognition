@@ -38,6 +38,10 @@ This repo ships a small, purpose-extracted subset of Microsoft's RecoFit
 dataset — **not** the full dataset. Only 3 exercises are included: Chest
 Press (rack), Squat Rack Shoulder Press, and Lateral Raise.
 
+The CSVs were extracted with
+[recofit-mat2csv-exercise-filter](https://github.com/erenalpckroglu/recofit-mat2csv-exercise-filter),
+a companion tool built for this project.
+
 See [`data/README.md`](data/README.md) for the exact provenance, CSV schema,
 and license. The data has its **own license** (CDLA-Permissive-2.0), separate
 from the code license below.

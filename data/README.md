@@ -24,6 +24,11 @@ this project only needed them:
 
 99 recordings total, 232,046 sample rows in `samples.csv`.
 
+The CSVs were produced with
+[recofit-mat2csv-exercise-filter](https://github.com/erenalpckroglu/recofit-mat2csv-exercise-filter),
+a small open-source tool built for this project. To regenerate them, run
+`recofit-mat2csv` with its default settings; the output is byte-identical to the files here.
+
 Only the master (right-arm) sensor stream is included here — the slave/left
 arm stream was skipped as redundant for these symmetric two-arm exercises.
 
